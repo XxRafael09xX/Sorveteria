@@ -3,7 +3,6 @@ C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.exe
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.pdb
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.xml
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbprojAssemblyReference.cache
-C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
 C:\Users\Rafael\source\repos\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
