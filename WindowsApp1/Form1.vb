@@ -1,6 +1,7 @@
 ﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Window
 
 Public Class Form1
+    Public sabore As String = ""
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Panel2.BackColor = Color.FromArgb(100, Color.Transparent)
@@ -76,21 +77,32 @@ Public Class Form1
         If CheckBox10.Checked Then
             contador += 1
             vetor(contador - 1) = CheckBox10.Text
-            '   ReDim vetor(vetor.Count + 1)
+
         End If
 
-        MessageBox.Show(contador * 1.3)
+
         For index = 0 To vetor.Count - 1
+
             If vetor(index) <> vbNullString Then
-                MessageBox.Show(vetor(index))
+                sabore += vetor(index) + vbCrLf
 
 
             End If
 
         Next
+        Dim cobertura As String
+        If RadioButton1.Checked Then
+            cobertura = RadioButton1.Text
+        ElseIf RadioButton2.Checked Then
+            cobertura = RadioButton2.Text
+        Else
+            cobertura = RadioButton3.Text
+        End If
 
-        Const message As String = "Sorvete sabor(es):     asdasd    "
-        Const caption As String = "Atenção"
+        Dim total As Double = contador * 1.3
+        'jasjhsajjhdhjashjsahjsadjhasjhsadjhsadjhsad
+        Dim message As String = "Sorvete sabor(es):" + vbCrLf + sabore + vbCrLf + "Com cobertura de " + cobertura + vbCrLf + vbCrLf + "Total a pagar: R$ " + total.ToString + vbCrLf + vbCrLf + "Deseja imprimir cupom?"
+        Dim caption As String = "Atenção"
         result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk)
 
 
